@@ -1,0 +1,29 @@
+Przygotowanie konta Azure
+Zarejestrowanie się na platformie Azure:
+
+Na Azure for Students, aby uzyskać dostęp do darmowych zasobów chmurowych.
+
+Przejdź do Azure Portal i zaloguj się na swoje konto.
+Tworzenie bazy danych PostgreSQL
+Utwórz nowy zasób PostgreSQL:
+
+W Azure Portal, kliknij "Create a resource".
+Wyszukaj "Azure Database for PostgreSQL" i kliknij "Create".
+Kliknij "Create".
+Skonfiguruj serwer PostgreSQL:
+
+Podaj nazwę serwera.
+Wybierz region, w którym chcesz utworzyć serwer.
+Wybierz wersję bazy danych PostgreSQL.
+Skonfiguruj logowanie administratora (nazwa użytkownika i hasło).
+Wybierz "Compute + storage" .
+
+Skonfiguruj App Service:
+
+Podaj nazwę aplikacji.
+Wybierz system operacyjny.
+Wybierz plan App Service (np. F1 Free).
+Wybierz "Azure Container Registry" i wybierz rejestr kontenerów oraz obraz, który utworzyłeś wcześniej.
+
+konfiguruj zmienne środowiskowe:
+Zmień porty na 8000
